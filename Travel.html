@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Travel</title>
+    <link rel="stylesheet" href="Travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+     <header class="Navbar">
+        <a href="Travel.html" class="logo">World Travel</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#tours">Tours</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact" class="nav-contact">Contact</a>
+        </nav>
+     </header>
+
+     <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">DISCOVER THE WORLD WITH US</p>
+            <h1>Explore The World, <br>
+             <span>Live Your Dreams.</span></h1>
+
+             <p class="hero-text">
+                Embark on a journey of a lifetime with our curated travel experiences. From breathtaking landscapes to vibrant cultures, we bring you closer to the wonders of the world. Whether you're seeking adventure, relaxation, or cultural immersion, our expert guides and tailored itineraries ensure an unforgettable travel experience. Join us and make your travel dreams a reality.
+             </p>
+
+                <a href="#destinations" class="hero-btn">Explore Now</a>
+        </div>
+
+        <div class="hero-bottom">
+            <span>✈ Adventure Awaits You</span>
+            <span>🌍 50+ Destinations</span>
+            <span>🏆 100% Satisfaction</span>
+        </div>
+    </section>
+    
+    <!-- Destinations Section -->
+    <section class="section" id="destinations">
+        <div class="section-header">
+            <p>EXPLORE PLACES</p>
+            <h2>Popular Destinations</h2>
+            <span>Find your next dream destination</span>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search destinations..." id="searchInput">
+        </div>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="paris.jpg" alt="Paris">
+                <div class="card-info">
+                <h3> Paris, France</h3>
+                <p>🗼  Romantic City</p>
+                <p>Experience the city of lights and romance.</p>
+            </div>
+            </div>
+            <div class="destination-card">
+                <img src="Dubai.jpg" alt="Dubai">
+                <div class="card-info">
+                    <h3>Dubai, UAE</h3>
+                    <p>🏙️ Modern Metropolis</p>
+                    <p>Discover the luxury and innovation of the desert city.</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="Bali.jpg" alt="Bali">
+                <div class="card-info">
+                    <h3>Bali, Indonesia</h3>
+                    <p>🏝️ Tropical Paradise</p>
+                    <p>Relax on the pristine beaches and explore lush landscapes.</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <img src="New-York.jpg" alt="New York">
+                <div class="card-info">
+                    <h3>New York, USA</h3>
+                    <p>🌆 The Big Apple</p>
+                    <p>Experience the vibrant culture and iconic landmarks.</p>
+                </div>
+            </div>  
+                <div class="destination-card">
+                <img src="Japan.jpg" alt="Japan">
+                <div class="card-info">
+                    <h3>Japan, Asia</h3>
+                    <p>🏯 Cultural Heritage</p>
+                    <p>Immerse yourself in the unique blend of tradition and modernity.</p>
+                </div>
+            </div>  
+            <div class="destination-card">
+                <img src="Tour-S.jpg" alt="Santorini">
+                <div class="card-info">
+                    <h3>Santorini, Greece</h3>
+                    <p>🌅 Stunning Sunsets</p>
+                    <p>Experience the breathtaking views and charming architecture.</p>
+                </div>
+            </div>  
+            
+              <div class="destination-card">
+                <img src="Maldives.jpg" alt="Maldives">
+                <div class="card-info">
+                    <h3>Maldives</h3>
+                    <p>🏝️ Tropical Paradise</p>
+                    <p>Relax on the pristine beaches and explore lush landscapes.</p>
+                </div>
+            </div>  
+
+            <div class="destination-card">
+                <img src="Hong.jpg" alt="Hong Kong">
+                <div class="card-info">
+                    <h3>Hong Kong</h3>
+                    <p>🏙️ Metropolis</p>
+                    <p>Experience the vibrant culture and iconic landmarks.</p>
+                </div>
+            </div>  
+            <div class="destination-card">
+                <img src="Iceland.jpg" alt="Iceland">
+                <div class="card-info">
+                    <h3>Iceland</h3>
+                    <p>🧊 Natural Wonders</p>
+                    <p>Discover the stunning landscapes and unique geological features.</p>
+                </div>
+            </div>  
+        </div>
+
+        <p class="no-results" id="noResults">No destinations found.</p>
+    </section>
+ 
+
+    <!-- Stats Section --> 
+     <section class="stats">
+    <div><h2>50+</h2><p>Destinations</p></div>
+    <div><h2>10K+</h2><p>Happy Travelers</p></div>
+    <div><h2>15+</h2><p>Years Experience</p></div>
+    <div><h2>100%</h2><p>Happy Memories</p></div>
+</section>
+
+<!-- Tours -->
+<section class="section" id="tours">
+    <div class="section-heading">
+        <p>OUR PACKAGES</p>
+        <h2>Popular Tour Packages</h2>
+        <span>Choose your perfect holiday package.</span>
+    </div>
+
+    <div class="tour-grid">
+
+        <div class="tour-card">
+            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800" alt="Switzerland">
+            <div class="tour-content">
+                <span class="duration">5 Days / 4 Nights</span>
+                <h3>Switzerland Adventure</h3>
+                <p>🏔 Mountains | 🚆 Sightseeing</p>
+                <div class="tour-bottom">
+                    <h3>$899</h3>
+                    <a href="#contact">Book Now →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour-card">
+            <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800" alt="Bali">
+            <div class="tour-content">
+                <span class="duration">4 Days / 3 Nights</span>
+                <h3>Bali Island Escape</h3>
+                <p>🏝 Beach | 🌴 Nature</p>
+                <div class="tour-bottom">
+                    <h3>$599</h3>
+                    <a href="#contact">Book Now →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour-card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Mountain">
+            <div class="tour-content">
+                <span class="duration">6 Days / 5 Nights</span>
+                <h3>Mountain Explorer</h3>
+                <p>⛰ Trekking | 🌲 Adventure</p>
+                <div class="tour-bottom">
+                    <h3>$749</h3>
+                    <a href="#contact">Book Now →</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- About -->
+<section class="about section" id="about">
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1000" alt="Travel adventure">
+    </div>
+
+    <div class="about-content">
+        <p class="small-title">ABOUT WANDERWORLD</p>
+        <h2>We Make Your Travel Dreams Come True</h2>
+        <p>
+            WanderWorld is your travel partner for discovering
+            amazing places around the globe. We believe every
+            journey creates a beautiful story.
+        </p>
+
+        <div class="about-point">✓ Carefully Selected Destinations</div>
+        <div class="about-point">✓ Friendly Travel Support</div>
+        <div class="about-point">✓ Memorable Experiences</div>
+
+        <a href="#contact" class="btn">Contact Us →</a>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="section" id="gallery">
+    <div class="section-heading">
+        <p>TRAVEL MEMORIES</p>
+        <h2>Our Beautiful Gallery</h2>
+        <span>A glimpse of amazing places around the world.</span>
+    </div>
+
+    <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800" alt="Mountains">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Beach">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800" alt="Lake">
+        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800" alt="Architecture">
+        <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800" alt="Forest">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800" alt="Nature">
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonial">
+    <p>TRAVELER STORIES</p>
+    <h2>What Our Travelers Say</h2>
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>
+            "An amazing travel experience! Everything was
+            beautiful and well organized. I loved every moment."
+        </p>
+        <h3>Yash Mali</h3>
+        <span>Happy Traveler</span>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact" id="contact">
+    <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Plan Your Next Journey</h2>
+        <span>Let's make your dream vacation happen.</span>
+    </div>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Travel Destination" required>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message →</button>
+        <p id="formMessage" role="status"></p>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <h2>World<span>Travel.</span></h2>
+    <p>Explore More. Travel More. Live More.</p>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/share/1JeQe6qbiV/">Facebook</a>
+        <a href="https://instagram.com/heymahesh0305">Instagram</a>
+        <a href="https://youtube.com/@maheshkumawat-h1t9u?si=pimgW-myCrSediQ_">YouTube</a>
+    </div>
+
+    <p class="copyright">
+        © <span id="year"></span> WorldTravel. All Rights Reserved.
+    </p>
+    <p>Created by Mahesh Kumar</p>
+</footer>
+
+<button id="topBtn" aria-label="Back to top">↑</button>
+
+<script src="Travel.js"></script>
+</body>
+</html>
