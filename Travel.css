@@ -736,3 +736,60 @@ nav a {
     font-size: 20px;
 }
 
+/* Basic fixes taaki images aur boxes screen se bahar na jayein */
+* {
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile Screen ke liye Special CSS (768px se chhoti screen) */
+@media only screen and (max-width: 768px) {
+  
+  body {
+    font-size: 16px; /* Text padhne mein aasan rahe */
+    padding: 10px;
+  }
+
+  /* Agar aapne side-by-side boxes (Flexbox/Grid) banaye hain toh unhe upar-neeche karne ke liye */
+  .container, .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Buttons ko mobile par tap karne ke liye bada rakhein */
+  button, .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/* 1. Side ke faltu gap aur horizontal scroll ko hatane ke liye */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Har element ko screen ke andar rakhne ke liye */
+* {
+  box-sizing: border-box;
+}
+
+/* 3. Background aur images ko screen par fit karne ke liye */
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
